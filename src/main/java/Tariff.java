@@ -1,26 +1,26 @@
 public class Tariff {
-    long tariffId;
-    String tariffName;
-    boolean tariffCostPerDay;
-    double tariffCost;
-    double tariffMinutes;
-    double tariffInternet;
-    double tariffSms;
-    boolean tariffUnlimitedCall;
-    boolean tariffFreeSocial;
-    boolean tariffFreeMessengers;
+    long id;
+    String name;
+    boolean costPerDay;
+    double cost;
+    double minutes;
+    double internet;
+    double sms;
+    boolean unlimitedCall;
+    boolean freeSocial;
+    boolean freeMessengers;
 
     Tariff(long id, String name, boolean costPerDay, double cost, double minutes, double internet, double sms,
            boolean unlimitedCall, boolean freeSocial, boolean freeMessengers) {
-        tariffId = id;
-        tariffName = name;
-        tariffCostPerDay = costPerDay;
-        tariffCost = cost;
-        tariffMinutes = minutes;
-        tariffInternet = internet;
-        tariffSms = sms;
-        tariffUnlimitedCall = unlimitedCall;
-        tariffFreeSocial = freeSocial;
-        tariffFreeMessengers = freeMessengers;
+        this.id = id;
+        this.name = name;
+        this.costPerDay = costPerDay;
+        this.cost = cost;
+        this.minutes = minutes;
+        this.internet = internet;
+        this.sms = sms;
+        this.unlimitedCall = unlimitedCall;
+        this.freeSocial = freeSocial;
+        this.freeMessengers = freeMessengers;
     }
 }
